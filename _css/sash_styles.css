@@ -1,0 +1,130 @@
+html, body {
+	/*background: #00FA9A	;  Beccapurple */
+    background-image: url("/_images/fabricColor.jpg");
+	margin: 0;
+}
+h1, h2 {
+	margin: 0;
+	padding: 2px;
+    color: black;
+    text-align: center;
+    
+}
+h1 {
+	font-size: 15em;
+    padding: 0;
+}
+
+h2 {
+    font-size: 3em;
+    padding: 50px;
+}
+h3 {
+    color: black;
+}
+
+h4 {
+    color: aliceblue;
+}
+body {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 100%;
+	width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+	padding: 2.5% 2.5% 0;
+	/*background: white;*/
+	line-height: 1.8;
+}
+
+aside {
+    background: #87AFC7;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: 50;
+    width: 25em;
+    border-radius:20px;
+    padding:1em;
+    float: right;
+}
+
+aside h4 {
+    text-align:center;
+}
+
+#batteries iframe {
+    display: block;
+    margin: auto;
+}
+
+strong {
+    color: indianred;
+}
+
+.left {
+    position:absolute;
+    left:0; top:0; bottom: 0;
+    background-image: url("/_images/mainBackground.jpg");
+    width: 178px;
+}
+
+.right {
+    position:absolute;
+    right:0; top:0; bottom:0;
+    background-image: url("/_images/mainBackground.jpg");
+    width: 178px;
+}
+
+.badge1 {
+  height: 250px;
+  width: 250px;
+  background-color: black;
+  opacity: 0.2;
+  border-radius: 50%;
+  float: left;
+}
+
+.badge2 {
+  height: 250px;
+  width: 250px;
+  background-color: black;
+  opacity: 0.2;
+  border-radius: 50%;
+  float: left;
+}
+
+.badge3 {
+  height: 250px;
+  width: 250px;
+  background-color: black;
+  opacity: 0.2;
+  border-radius: 50%;
+  float: left;
+}
+
+.badge4 {
+  height: 250px;
+  width: 250px;
+  background-color: black;
+  opacity: 0.2;
+  border-radius: 50%;
+  float: left;
+}
+
+.badge5 {
+  height: 250px;
+  width: 250px;
+  background-color: black;
+  opacity: 0.2;
+  border-radius: 50%;
+  float: left;
+}
+
+.badge5:hover, .badge4:hover, .badge3:hover, .badge3:hover, .badge2:hover, .badge1:hover {
+    background-color: aliceblue;
+}
+
+span {
+    margin-left: 20px;
+    margin-right: 20px;
+}
