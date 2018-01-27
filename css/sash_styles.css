@@ -1,6 +1,6 @@
 html, body {
 	/*background: #00FA9A	;  Beccapurple */
-    background-image: url("/_images/fabricColor.jpg");
+    background-image: url("/images/fabricColor.jpg");
 	margin: 0;
 }
 h1, h2 {
@@ -64,14 +64,14 @@ strong {
 .left {
     position:absolute;
     left:0; top:0; bottom: 0;
-    background-image: url("/_images/mainBackground.jpg");
+    background-image: url("/images/mainBackground.jpg");
     width: 178px;
 }
 
 .right {
     position:absolute;
     right:0; top:0; bottom:0;
-    background-image: url("/_images/mainBackground.jpg");
+    background-image: url("/images/mainBackground.jpg");
     width: 178px;
 }
 
