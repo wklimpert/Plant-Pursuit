@@ -76,10 +76,11 @@ strong {
 .badge1 {
   height: 250px;
   width: 250px;
-  background-color: black;
-  opacity: 0.2;
+  background-image: url("/images/badge1_noHover.png");
+  opacity: 1;
   border-radius: 50%;
   float: left;
+  margin-bottom: 20px;
 }
 
 .badge2 {
@@ -89,6 +90,8 @@ strong {
   opacity: 0.2;
   border-radius: 50%;
   float: left;
+  margin-bottom: 20px;
+
 }
 
 .badge3 {
@@ -98,6 +101,8 @@ strong {
   opacity: 0.2;
   border-radius: 50%;
   float: left;
+  margin-bottom: 20px;
+
 }
 
 .badge4 {
@@ -107,6 +112,8 @@ strong {
   opacity: 0.2;
   border-radius: 50%;
   float: left;
+  margin-bottom: 20px;
+
 }
 
 .badge5 {
@@ -116,10 +123,12 @@ strong {
   opacity: 0.2;
   border-radius: 50%;
   float: left;
+  margin-bottom: 20px;
+
 }
 
 .badge5:hover, .badge4:hover, .badge3:hover, .badge3:hover, .badge2:hover, .badge1:hover {
-    background-color: aliceblue;
+    background-image: url("/images/badge1_hover.png");
 }
 
 span {
