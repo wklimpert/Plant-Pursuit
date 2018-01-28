@@ -156,7 +156,8 @@ background-color: skyblue;
 }
 
 .box {
-    width: 500px;
+    width: 1800px;
+    height: 700px;
     margin: 100px auto;
     padding: 100px;
     border: 5px solid gray;
