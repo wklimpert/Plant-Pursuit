@@ -365,16 +365,19 @@ text-shadow:1px 1px 1px gray
 
 #nav {
     overflow: hidden;
-    background-color: rgb(112, 105, 100);
+    background-color: orangered;
     position: fixed;
     top: 0;
     width: 100%;
     border-bottom: 5px solid orange;
+    border-radius: 10px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 
 #nav a {
     float: left;
+    font-size: 30px;
     display: block;
     color: #f2f2f2;
     text-align: center;
