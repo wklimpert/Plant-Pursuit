@@ -5,20 +5,70 @@
         <meta charset="utf-8">
         <title>Badges</title>
         <link href="css/sash_styles.css" rel="stylesheet" type="text/css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
     </head>
     <body>
     
     <h1>Badges</h1>
     <h2>Keep finding plants to get all the badges!</h2>
+
+        <img id="william1" src="/images/william1.png" alt="does this work">
+        <img id="william2" src="/images/william2.png" alt="does this work">
+        <img id="william3" src="/images/william3.png" alt="does this work">
+        <img id="william4" src="/images/william4.png" alt="does this work">
+        <img id="william5" src="/images/william5.png" alt="does this work">
+
     <span class="badge1"></span>
     <span class="badge2"></span>
     <span class="badge3"></span>
     <span class="badge4"></span>
     <span class="badge5"></span>
     
+    
     <div class="left"></div>
     <div class="right"></div>
+    
+    <script>
+        var isVisible = false;
+        var selectedBadge = '';
+        var descriptions = ['#william1', '#william2', '#william3', '#william4', '#william5'];
+        var badges = ['.badge1','.badge2','.badge3','.badge4','.badge5'];
+        descriptions.forEach(function(pic) {
+            $(pic).hide();
+        });
+        
+        buttonDescription = function(pic) {
+            if (isVisible == true) {
+                $(pic).hide();
+
+            } else {
+                $(pic).show();
+            };
+            isVisible = $(pic).is(':visible');
+            //console.log(pic);            
+        }
+        
+        $(document).ready(function(){
+            $('.badge1').hover(function() {
+                buttonDescription(descriptions[0]);
+            });
+            $('.badge2').hover(function() {
+                buttonDescription(descriptions[1]);
+            });
+            $('.badge3').hover(function() {
+                buttonDescription(descriptions[2]);
+            });
+            $('.badge4').hover(function() {
+                buttonDescription(descriptions[3]);
+            });
+            $('.badge5').hover(function() {
+                buttonDescription(descriptions[4]);
+            });
+
+
+        });
+    </script>
     
 
     </body>
