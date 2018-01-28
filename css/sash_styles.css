@@ -34,7 +34,7 @@ body {
 }
 
 body {
-    background-image: url("/images/mainBackground.jpg");
+    background-image: url("https://78.media.tumblr.com/a1417cd5298b92bfa74c87aa1ba72f9b/tumblr_otn6c5l8NA1vuqliqo1_1280.jpg");
 }
 
 aside {
@@ -159,12 +159,36 @@ background-color: skyblue;
     /*background-color: rgba(255,255,255,0.9);*/
     
 }
+.boxIntro {
+    width: 1800px;
+    height: 700px;
+    background-image: url("http://images.gofreedownload.net/3/nature-background-leaves-grass-icons-repeating-style-sketch-208695.jpg");
+      opacity: 0.8; 
+    margin: 100px auto;
+    background-size: cover;
+    padding: 90px;
+    border: 5px solid gray;
+    border-radius: 25px;
+}
+
+.boxNotebook {
+    width: 1800px;
+    height: 700px;
+    background-image: url("http://journal-women.com/wp-content/uploads/2017/12/notebook-powerpoint-templates-education-green-white-free-ppt-regarding-notebook-paper-background-for-powerpoint.jpg");
+      opacity: 1.0; 
+    margin: 100px auto;
+    background-size: cover;
+    padding: 90px;
+    border: 5px solid gray;
+    border-radius: 25px;
+}
+
 
 .boxBadge {
     width: 1800px;
     height: 700px;
     background-image: url("/images/fabricColor.jpg");
-    opacity: 0.8;
+    /*  opacity: 0.8; */
     margin: 100px auto;
     padding: 100px;
     border: 5px solid gray;
@@ -227,3 +251,12 @@ color:#006400;
 text-shadow:1px 1px 1px gray
 }
 
+.boxMap {
+    width: 1800px;
+    height: 700px;
+    /* opacity: 0.8; */
+    margin: 100px auto;
+    padding: 100px;
+    border: 5px solid gray;
+    border-radius: 25px;
+}
