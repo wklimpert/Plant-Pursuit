@@ -9,37 +9,33 @@
         </script>
     </head>
     <body>
-    <div id="content">
-
             <div id="nav" class="clearfix">
                     <a href="#main">Main</a>
                     <a href="#pictures">My Pictures</a>
                     <a href="#badges">My Badges</a>
                     <a href="#maps">My Map</a>
             </div>
+        <div id="content">
         <div class ="box">
  <div id="main">
-        <h1>Welcome to BrownU's Plant Pursuit!</h1>
-        <img id="title" src="/images/planetPlant.png" alt="title" text-align="center">
-        </div>
+        <h1>Welcome to BrownU's Plant Pursuit!</h1></div>
         </div>
         
         <!-- Plant Pursuit Goes Here -->
     <div id="container">
             <div class="section">
 
-    <div class = "boxNotebook">
+    <div class = "box">
     
     <!-- Form !-->
-    <div id="container">
+    <!--<div id="container">
         <h2>Dynamically Created Form Using jQuery</h2>
         <div id="form1">
         <!-- Dynamic Form Div -->
         </div>
         
         <script>
-        var plantList = [];
-        var notes = [];
+        
         $(document).ready(function() {
         $("div#form1").append(
         // Creating Form Div and Adding <h2> and <p> Paragraph Tag in it.
@@ -76,26 +72,18 @@
     // get an associative array of just the values.
     var values = {};
     $inputs.each(function() {
-        if (this.name == 'name') {
-            plantList.push($(this).val());
-        } else if (this.name == 'msg') {
-            notes.push($(this).val());
-        };
-        //values[this.name] = $(this).val();
+        values[this.name] = $(this).val();
     });
-    //console.log(values[0]);
-    //console.log(values[1]);
-    console.log(plantList);
+console.log(values);
 });
         
         </script>
-    </div>
-    <div>
-    </div>
-        <!--<div class = "boxNotebook">
+    </div>!-->
+
+        <div class = "boxNotebook">
 
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p></div>
-            </div>!-->
+            </div>
     <a href="#home"></a>
 <div id=pictures>
     <div class = box>
@@ -105,9 +93,12 @@
     </div>
     <div id=badges; class = boxBadge>
     <h1>Badges</h1>
-    <img id="title" src="/images/badgesTitle.png" alt="title" text-align="center">
-
     <a href="#badges"></a>
+
+    <a name="#badges"></a>
+    <div id="badges">
+
+    
     <h2>Keep finding plants to get all the badges!</h2>
 
         <!--<img id="william1" src="/images/william1.png" alt="does this work">
@@ -121,18 +112,15 @@
         <span class="badge2"></span>
         <span class="badge3"></span>
         <span class="badge4"></span>
-    </div>
-    <div class="row">
         <span class="badge5"></span>
-        <span class="badge6"></span>
-        <span class="badge7"></span>
-        <span class="badge8"></span>
     </div>
     <div class="row">
-        <span class="badge9"></span>
-        <span class="badge10"></span>
-        <span class="badge11"></span>
-        <span class="badge12"></span>
+        <span class="badge1"></span>
+        <span class="badge2"></span>
+        <span class="badge3"></span>
+        <span class="badge4"></span>
+        <span class="badge5"></span>
+    </div>
     </div>
     
     <script>

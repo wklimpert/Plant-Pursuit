@@ -1,7 +1,7 @@
 html, body {
 	/*background: #00FA9A	;  Beccapurple */
     /*background-image: url("/images/fabricColor.jpg");
-	margin: 0;
+    margin: 0;
 }
 h1, h2 {
 	margin: 0;
@@ -35,6 +35,7 @@ body {
 
 body {
     background-image: url("https://78.media.tumblr.com/a1417cd5298b92bfa74c87aa1ba72f9b/tumblr_otn6c5l8NA1vuqliqo1_1280.jpg");
+    width: 100%;
 }
 
 aside {
@@ -74,7 +75,8 @@ strong {
 .badge2 {
   height: 250px;
   width: 250px;
-  background-image: url("/images/badge1_noHover.png");
+  background-color: black;
+  opacity: 0.2;
   border-radius: 50%;
   float: left;
   margin-bottom: 20px;
@@ -84,7 +86,8 @@ strong {
 .badge3 {
   height: 250px;
   width: 250px;
-  background-image: url("/images/badge1_noHover.png");
+  background-color: black;
+  opacity: 0.2;
   border-radius: 50%;
   float: left;
   margin-bottom: 20px;
@@ -94,124 +97,28 @@ strong {
 .badge4 {
   height: 250px;
   width: 250px;
-  background-image: url("/images/badge1_noHover.png");
+  background-color: black;
+  opacity: 0.2;
   border-radius: 50%;
   float: left;
   margin-bottom: 20px;
 
 }
 
-.badge6 {
+.badge5 {
   height: 250px;
   width: 250px;
-  background-image: url("/images/badge1_noHover.png");
+  background-color: black;
+  opacity: 0.2;
   border-radius: 50%;
   float: left;
   margin-bottom: 20px;
+
 }
 
-.badge7 {
-  height: 250px;
-  width: 250px;
-  background-image: url("/images/badge1_noHover.png");
-  border-radius: 50%;
-  float: left;
-  margin-bottom: 20px;
-}
-
-.badge8 {
-  height: 250px;
-  width: 250px;
-  background-image: url("/images/badge1_noHover.png");
-  border-radius: 50%;
-  float: left;
-  margin-bottom: 20px;
-}
-
-.badge9 {
-  height: 250px;
-  width: 250px;
-  background-image: url("/images/badge1_noHover.png");
-  border-radius: 50%;
-  float: left;
-  margin-bottom: 20px;
-}
-
-.badge10 {
-  height: 250px;
-  width: 250px;
-  background-image: url("/images/badge1_noHover.png");
-  border-radius: 50%;
-  float: left;
-  margin-bottom: 20px;
-}
-
-.badge11 {
-  height: 250px;
-  width: 250px;
-  background-image: url("/images/badge1_noHover.png");
-  border-radius: 50%;
-  float: left;
-  margin-bottom: 20px;
-}
-
-.badge12 {
-  height: 250px;
-  width: 250px;
-  background-image: url("/images/badge1_noHover.png");
-  border-radius: 50%;
-  float: left;
-  margin-bottom: 20px;
-}
-
-.badge1:hover {
+.badge5:hover, .badge4:hover, .badge3:hover, .badge3:hover, .badge2:hover, .badge1:hover {
     background-image: url("/images/badge1_hover.png");
 }
-
-.badge2:hover {
-    background-image: url("/images/badge2_hover.png");
-}
-
-.badge3:hover {
-    background-image: url("/images/badge3_hover.png");
-}
-
-.badge4:hover {
-    background-image: url("/images/badge4_hover.png");
-}
-
-.badge5:hover {
-    background-image: url("/images/badge5_hover.png");
-}
-
-.badge6:hover {
-    background-image: url("/images/badge6_hover.png");
-}
-
-.badge7:hover {
-    background-image: url("/images/badge7_hover.png");
-}
-
-.badge8:hover {
-    background-image: url("/images/badge8_hover.png");
-}
-
-.badge9:hover {
-    background-image: url("/images/badge9_hover.png");
-}
-
-.badge10:hover {
-    background-image: url("/images/badge10_hover.png");
-}
-
-.badge11:hover {
-    background-image: url("/images/badge11_hover.png");
-}
-
-.badge12:hover {
-    background-image: url("/images/badge12_hover.png");
-}
-
 
 span {
     margin-left: 20px;
@@ -239,7 +146,7 @@ background-color: skyblue;
 
 
 .box {
-    width: 1800px;
+    width: 100%;
     height: 700px;
     opacity: 0.8;
     /*background-color: rgba(255,255,255,0.0);*/
@@ -254,7 +161,7 @@ background-color: skyblue;
     
 }
 .boxIntro {
-    width: 1800px;
+    width: 100%;
     height: 700px;
     background-image: url("http://images.gofreedownload.net/3/nature-background-leaves-grass-icons-repeating-style-sketch-208695.jpg");
       opacity: 0.8; 
@@ -266,20 +173,20 @@ background-color: skyblue;
 }
 
 .boxNotebook {
-    width: 1800px;
+    width: 100%;
     height: 700px;
     background-image: url("http://journal-women.com/wp-content/uploads/2017/12/notebook-powerpoint-templates-education-green-white-free-ppt-regarding-notebook-paper-background-for-powerpoint.jpg");
       opacity: 1.0; 
     margin: 100px auto;
     background-size: cover;
-    padding: 100px;
+    padding: 90px;
     border: 5px solid gray;
     border-radius: 25px;
 }
 
 
 .boxBadge {
-    width: 1800px;
+    width: 100%;
     height: 700px;
     background-image: url("/images/fabricColor.jpg");
     /*  opacity: 0.8; */
@@ -353,4 +260,23 @@ text-shadow:1px 1px 1px gray
     padding: 100px;
     border: 5px solid gray;
     border-radius: 25px;
+}
+#nav {
+    overflow: hidden;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 5px solid #e79908;
+    height: 45;
+    z-index:9;
+}
+
+#nav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
