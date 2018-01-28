@@ -98,7 +98,15 @@ strong {
   border-radius: 50%;
   float: left;
   margin-bottom: 20px;
+}
 
+.badge5 {
+  height: 250px;
+  width: 250px;
+  background-image: url("/images/badge1_noHover.png");
+  border-radius: 50%;
+  float: left;
+  margin-bottom: 20px;
 }
 
 .badge6 {
@@ -238,8 +246,8 @@ background-color: skyblue;
 }
 
  .centered {
-     padding: 100px
-     text-align: center
+     text-align: center;
+     margin-top: 100px;
 
 } */
 
@@ -284,11 +292,11 @@ background-color: skyblue;
 
 
 .boxBadge {
-    width: 500px;
-    height: 700px;
+    width: 1000px;
+    height: 1700px;
     background-image: url("/images/fabricColor.jpg");
     /*  opacity: 0.8; */
-    margin: 100px auto;
+    margin: auto;
     padding: 100px;
     border: 5px solid gray;
     border-radius: 25px;
@@ -305,10 +313,9 @@ border:2px solid #a5a5a5;
 padding:20px;
 background-color:#f3f3f3;
 border-radius:3px;
-float:left;
 text-align:center;
-margin-left:100px;
-margin-top:50px
+margin-top:50px;
+margin: auto;
 }
 h3,p{
 text-align:center;
@@ -345,9 +352,10 @@ margin:50px auto;
 width:960px
 }
 h2{
-font-family:'Raleway',sans-serif;
-color:#006400;
-text-shadow:1px 1px 1px gray
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+color:white;
+text-shadow:1px 1px 1px gray;
+text-align: center;
 }
 
 .boxMap {
