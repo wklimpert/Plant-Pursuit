@@ -1,6 +1,6 @@
 html, body {
 	/*background: #00FA9A	;  Beccapurple */
-    background-image: url("/images/fabricColor.jpg");
+    /*background-image: url("/images/fabricColor.jpg");
 	margin: 0;
 }
 h1, h2 {
@@ -155,11 +155,25 @@ li a:hover {
 background-color: skyblue;
 }
 
+
 .box {
     width: 1800px;
     height: 700px;
+    opacity: 0.8;
     margin: 100px auto;
     padding: 100px;
     border: 5px solid gray;
     border-radius: 25px;
 }
+
+.boxBadge {
+    width: 1800px;
+    height: 700px;
+    background-image: url("/images/fabricColor.jpg");
+    opacity: 0.8;
+    margin: 100px auto;
+    padding: 100px;
+    border: 5px solid gray;
+    border-radius: 25px;
+}
+
