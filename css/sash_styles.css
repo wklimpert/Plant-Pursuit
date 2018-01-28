@@ -237,6 +237,14 @@ li a:hover {
 background-color: skyblue;
 }
 
+/* .centered {
+  position: relative;
+  margin: 0 auto;
+    top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%); 
+} */
 
 .box {
     width: 1800px;
@@ -254,7 +262,7 @@ background-color: skyblue;
     
 }
 .boxIntro {
-    width: 1800px;
+    width: 500px;
     height: 700px;
     background-image: url("http://images.gofreedownload.net/3/nature-background-leaves-grass-icons-repeating-style-sketch-208695.jpg");
       opacity: 0.8; 
