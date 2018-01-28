@@ -10,10 +10,6 @@ h1, h2 {
     text-align: center;
     
 }
-h1 {
-	font-size: 15em;
-    padding: 0;
-}
 
 h2 {
     font-size: 3em;
@@ -127,4 +123,23 @@ strong {
 span {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+ul {list-style-type: none; margin: center; padding: 0; overflow: hidden; background-color: transparent;}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: darkgoldenrod;
+
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: skyblue;
 }
