@@ -237,12 +237,11 @@ li a:hover {
 background-color: skyblue;
 }
 
-/* .centered {
+ .centered {
   position: relative;
   margin: 0 auto;
-    top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
+     padding-top: 
+ /* bring your own prefixes */
   transform: translate(-50%, -50%); 
 } */
 
