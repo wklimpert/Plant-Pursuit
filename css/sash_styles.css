@@ -74,8 +74,7 @@ strong {
 .badge2 {
   height: 250px;
   width: 250px;
-  background-color: black;
-  opacity: 0.2;
+  background-image: url("/images/badge1_noHover.png");
   border-radius: 50%;
   float: left;
   margin-bottom: 20px;
@@ -85,8 +84,7 @@ strong {
 .badge3 {
   height: 250px;
   width: 250px;
-  background-color: black;
-  opacity: 0.2;
+  background-image: url("/images/badge1_noHover.png");
   border-radius: 50%;
   float: left;
   margin-bottom: 20px;
@@ -96,28 +94,124 @@ strong {
 .badge4 {
   height: 250px;
   width: 250px;
-  background-color: black;
-  opacity: 0.2;
+  background-image: url("/images/badge1_noHover.png");
   border-radius: 50%;
   float: left;
   margin-bottom: 20px;
 
 }
 
-.badge5 {
+.badge6 {
   height: 250px;
   width: 250px;
-  background-color: black;
-  opacity: 0.2;
+  background-image: url("/images/badge1_noHover.png");
   border-radius: 50%;
   float: left;
   margin-bottom: 20px;
-
 }
 
-.badge5:hover, .badge4:hover, .badge3:hover, .badge3:hover, .badge2:hover, .badge1:hover {
+.badge7 {
+  height: 250px;
+  width: 250px;
+  background-image: url("/images/badge1_noHover.png");
+  border-radius: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.badge8 {
+  height: 250px;
+  width: 250px;
+  background-image: url("/images/badge1_noHover.png");
+  border-radius: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.badge9 {
+  height: 250px;
+  width: 250px;
+  background-image: url("/images/badge1_noHover.png");
+  border-radius: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.badge10 {
+  height: 250px;
+  width: 250px;
+  background-image: url("/images/badge1_noHover.png");
+  border-radius: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.badge11 {
+  height: 250px;
+  width: 250px;
+  background-image: url("/images/badge1_noHover.png");
+  border-radius: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.badge12 {
+  height: 250px;
+  width: 250px;
+  background-image: url("/images/badge1_noHover.png");
+  border-radius: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.badge1:hover {
     background-image: url("/images/badge1_hover.png");
 }
+
+.badge2:hover {
+    background-image: url("/images/badge2_hover.png");
+}
+
+.badge3:hover {
+    background-image: url("/images/badge3_hover.png");
+}
+
+.badge4:hover {
+    background-image: url("/images/badge4_hover.png");
+}
+
+.badge5:hover {
+    background-image: url("/images/badge5_hover.png");
+}
+
+.badge6:hover {
+    background-image: url("/images/badge6_hover.png");
+}
+
+.badge7:hover {
+    background-image: url("/images/badge7_hover.png");
+}
+
+.badge8:hover {
+    background-image: url("/images/badge8_hover.png");
+}
+
+.badge9:hover {
+    background-image: url("/images/badge9_hover.png");
+}
+
+.badge10:hover {
+    background-image: url("/images/badge10_hover.png");
+}
+
+.badge11:hover {
+    background-image: url("/images/badge11_hover.png");
+}
+
+.badge12:hover {
+    background-image: url("/images/badge12_hover.png");
+}
+
 
 span {
     margin-left: 20px;
@@ -178,7 +272,7 @@ background-color: skyblue;
       opacity: 1.0; 
     margin: 100px auto;
     background-size: cover;
-    padding: 90px;
+    padding: 100px;
     border: 5px solid gray;
     border-radius: 25px;
 }
