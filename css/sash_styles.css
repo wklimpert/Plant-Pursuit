@@ -33,6 +33,10 @@ body {
 	line-height: 1.8;
 }
 
+body {
+    background-image: url("/images/mainBackground.jpg");
+}
+
 aside {
     background: #87AFC7;
     border-style: solid;
@@ -55,22 +59,6 @@ aside h4 {
 
 strong {
     color: indianred;
-}
-
-.left {
-    position:absolute;
-    left:0; top:0; bottom:0;
-    background-image: url("/images/mainBackground.jpg");
-    background-repeat: repeat-y;
-    width: 178px;
-}
-
-.right {
-    position:absolute;
-    right:0; top:0; bottom:0;
-    background-image: url("/images/mainBackground.jpg");
-    background-repeat: repeat-y;
-    width: 178px;
 }
 
 .badge1 {
@@ -160,10 +148,16 @@ background-color: skyblue;
     width: 1800px;
     height: 700px;
     opacity: 0.8;
+    /*background-color: rgba(255,255,255,0.0);*/
+    background-color: rgba(255,255,255,0.9);
     margin: 100px auto;
     padding: 100px;
     border: 5px solid gray;
     border-radius: 25px;
+}
+.box:hover{
+    /*background-color: rgba(255,255,255,0.9);*/
+    
 }
 
 .boxBadge {
