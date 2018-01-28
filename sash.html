@@ -122,6 +122,17 @@ function myMap() {
     zoom:17, scrollwheel: false, draggable: true,
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
+  
+  var elmImage = {
+      url: 'https://wklimpert.github.io/images/icons/elm.png',
+      // This marker is 20 pixels wide by 32 pixels high.
+      size: new google.maps.Size(20, 32),
+      // The origin for this image is (0, 0).
+      //origin: new google.maps.Point(0, 0),
+      // The anchor for this image is the base of the flagpole at (0, 32).
+      //anchor: new google.maps.Point(0, 32)
+  };
+  
   var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
   var marker = new google.maps.Marker({
@@ -131,7 +142,8 @@ function myMap() {
   var elmMarker = new google.maps.Marker({
           position: new google.maps.LatLng(41.826241, -71.403011),
           map: map,
-          title: "American Elm"
+          title: "American Elm",
+          icon: elmImage
   });
   
   marker.setMap(map);
