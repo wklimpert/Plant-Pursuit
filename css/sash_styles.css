@@ -237,13 +237,10 @@ li a:hover {
 background-color: skyblue;
 }
 
-/* .centered {
-  position: relative;
-  margin: 0 auto;
-    top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%); 
+ .centered {
+     padding: 100px
+     text-align: center
+
 } */
 
 .box {
@@ -365,16 +362,19 @@ text-shadow:1px 1px 1px gray
 
 #nav {
     overflow: hidden;
-    background-color: rgb(112, 105, 100);
+    background-color: orangered;
     position: fixed;
     top: 0;
     width: 100%;
     border-bottom: 5px solid orange;
+    border-radius: 10px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 
 #nav a {
     float: left;
+    font-size: 30px;
     display: block;
     color: #f2f2f2;
     text-align: center;
