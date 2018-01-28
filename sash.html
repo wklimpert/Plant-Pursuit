@@ -69,19 +69,28 @@
         });
         
         $('#form1').submit(function() {
-    // get all the inputs into an array.
-    var $inputs = $('#form1 :input');
-
-    // not sure if you wanted this, but I thought I'd add it.
-    // get an associative array of just the values.
-    var values = {};
-    $inputs.each(function() {
-        if (this.name == 'name') {
-            plantList.push($(this).val());
-        } else if (this.name == 'msg') {
-            notes.push($(this).val());
-        };
-        //values[this.name] = $(this).val();
+            // get all the inputs into an array.
+            var $inputs = $('#form1 :input');
+            console.log("save")
+            // not sure if you wanted this, but I thought I'd add it.
+            // get an associative array of just the values.
+            var values = {};
+            $inputs.each(function() {
+                if (this.name == 'name') {
+                    plantList.push($(this).val());
+                    if ($(this).val() == 'ginkgo') {
+                        console.log("yes");
+                        $('.badge12').css("background-image", "url(/images/badge12_unlocked.png)");
+                        $('.badge1').css("background-image", "url(/images/badge1_unlocked.png)");
+                    } else if ($(this).val() == 'maple') {
+                        $('.badge4').css("background-image", "url(/images/badge4_unlocked.png)");
+                        $('.badge12').css("background-image", "url(/images/badge12_unlocked.png)");
+                        $('.badge1').css("background-image", "url(/images/badge1_unlocked.png)");
+                    };
+                } else if (this.name == 'msg') {
+                    notes.push($(this).val());
+                };
+                //values[this.name] = $(this).val();
     });
     //console.log(values[0]);
     //console.log(values[1]);
