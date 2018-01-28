@@ -116,6 +116,7 @@
 <script>
 function myMap() {
   myCenter=new google.maps.LatLng(41.8268227,-71.403154);
+  
   var mapOptions= {
     center:myCenter,
     zoom:17, scrollwheel: false, draggable: true,
@@ -126,7 +127,15 @@ function myMap() {
   var marker = new google.maps.Marker({
     position: myCenter,
   });
+  
+  var elmMarker = new google.maps.Marker({
+          position: new google.maps.LatLng(41.826241, -71.403011),
+          map: map,
+          title: "American Elm"
+  });
+  
   marker.setMap(map);
+  elmMarker.setMap(map);
 }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqK2QxOppQYSzxRLUVdz0SJ7UY-clxaNU
