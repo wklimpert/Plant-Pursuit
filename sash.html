@@ -9,6 +9,7 @@
         </script>
     </head>
     <body>
+    <div id="content">
 
             <div id="nav" class="clearfix">
                     <a href="#main">Main</a>
@@ -101,10 +102,12 @@
 
         });*/
     </script>
+    </div>
     <div>
     <!-- Maps Go Here -->
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
     <a href="#maps"></a>
+    </div>
 
 <div class="section">
     <a name="#maps"></a>
@@ -131,13 +134,23 @@ function myMap() {
 </div>
 </div>
 
+<!--                 Making the sidebars go all the way down              !-->
+<script>
+$(document).ready(function(){
+    if($('#content').height()>$('.left').height()){
+        $('.left').height($('#content').height());
+        $('.right').height($('#content').height());
+    }
+});
+</script>
+
 
 </div>
+<div
     <div class="bottomNav">
         <a href="#home" class="active">Home</a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
-    </div>
     </div>
     </body>
 </html>
